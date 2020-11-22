@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://StarTiles.tres" type="TileSet" id=1]
+
+[node name="SvAMain" type="Node2D"]
+
+[node name="Outside" type="TileMap" parent="."]
+mode = 2
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 10, 10 )
+cell_quadrant_size = 5
+cell_custom_transform = Transform2D( 40, 0, 0, 50, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 0, 0, 0, 1, 4, 0, 2, 5, 0, 3, 0, 0, 65536, 5, 0, 131072, 5, 0, 196608, 5, 0 )

@@ -1,0 +1,10 @@
+[remap]
+
+importer="csv"
+type="TextFile"
+
+[deps]
+
+source_file="res://maps/mapCSV_Opening_Environment.csv"
+[params]
+
